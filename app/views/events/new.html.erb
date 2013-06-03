@@ -1,7 +1,7 @@
 <%= form_for @event, :url => {:controller => 'events', :action => 'create'} do |f| %>
     <%= f.label :name, 'Name' %>
     <%= f.text_field :name %>
-
+    aa
     <%= f.label :is_public, 'Is public' %>
     <%= f.radio_button :is_public, 'Yes' %>
     <%= f.radio_button :is_public, 'No' %>

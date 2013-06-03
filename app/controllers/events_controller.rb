@@ -23,4 +23,8 @@ class EventsController < ApplicationController
   def edit
     @event = Event.find_by_name(params[:name])
   end
+
+  def update
+
+  end
 end
